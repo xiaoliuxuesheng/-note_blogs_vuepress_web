@@ -33,7 +33,19 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       { 
         text: '前端基础', 
-        link: '/webBase/'
+        link: '/webBase/',
+        items: [
+          {
+            text: "CSS",
+            items: [
+              {text: 'CSS基础',link:"/css/base/"},
+              {text: 'CSS选择器',link:"/css/select/"},
+              {text: 'CSS常用属性',link:"/css/attr/"},
+              {text: 'CSS布局',link:"/css/layout/"},
+              {text: 'CSS新特性',link:"/css/new/"},
+            ]
+          }
+        ]
       },
       { 
         text: '前端进阶', 
