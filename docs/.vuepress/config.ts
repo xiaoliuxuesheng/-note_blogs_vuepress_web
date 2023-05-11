@@ -44,6 +44,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               {text: 'CSS布局',link:"/css/layout/"},
               {text: 'CSS新特性',link:"/css/new/"},
             ]
+          },
+          {
+            text: "Dart",
+            link: '/pages/c73bb2/'
           }
         ]
       },
