@@ -57,7 +57,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       { 
         text: '前端框架', 
-        link: '/webFw/'
+        link: '/webFw/',
+        items: [
+          {
+            text: 'Vue',
+            items: [
+              {text: 'Vue基础', link: '/vue/base/'},
+              {text: 'Vue进阶', link: '/vue/home/'},
+              {text: 'Vue项目搭建', link: '/vue/project/'}
+            ]
+          }
+        ]
       },
       { 
         text: '前端库', 
