@@ -53,7 +53,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       { 
         text: '前端进阶', 
-        link: '/webHight/'
+        link: '/webHight/',
+        items: [
+          {text: 'TypeScript', link: '/pages/c96fd9/'}
+        ]
       },
       { 
         text: '前端框架', 
@@ -65,6 +68,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               {text: 'Vue基础', link: '/vue/base/'},
               {text: 'Vue进阶', link: '/vue/home/'},
               {text: 'Vue项目搭建', link: '/vue/project/'}
+            ]
+          },{
+            text: 'Flutter',
+            items: [
+              {text: 'Flutter基础', link: '/flutter/base/'},
+              {text: 'Flutter组件', link: '/flutter/wedget/'},
+              {text: 'Flutter第三方组件', link: '/flutter/third/'},
+              {text: 'Flutter高级', link: '/flutter/hight/'}
             ]
           }
         ]
