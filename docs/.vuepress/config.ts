@@ -97,7 +97,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '|', link: '/#' },
       {
         text: '更多',
-        link: '/more/',
         items: [
           { text: '友情链接', link: '/friends/' },
         ],
