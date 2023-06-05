@@ -36,7 +36,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/webBase/',
         items: [
           {
-            text: "CSS",
+            text: "01.HTML",
+            link: "/pages/570813/"
+          },
+          {
+            text: "02.CSS",
+            link: '/css/base/',
             items: [
               {text: 'CSS基础',link:"/css/base/"},
               {text: 'CSS选择器',link:"/css/select/"},
@@ -46,7 +51,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ]
           },
           {
-            text: "Dart",
+            text: "03.JavaScript",
+            link: "/pages/7c78a1/"
+          },
+          {
+            text: "04.Dart",
             link: '/pages/c73bb2/'
           }
         ]
@@ -55,7 +64,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '前端进阶', 
         link: '/webHight/',
         items: [
-          {text: 'TypeScript', link: '/pages/c96fd9/'}
+          {text: '05.TypeScript', link: '/pages/c96fd9/'},
+          {text: '06.CSS案例', link: '/pages/c30c6b/'}
         ]
       },
       { 
@@ -63,14 +73,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/webFw/',
         items: [
           {
-            text: 'Vue',
+            text: '01.Vue',
             items: [
               {text: 'Vue基础', link: '/vue/base/'},
               {text: 'Vue进阶', link: '/vue/home/'},
               {text: 'Vue项目搭建', link: '/vue/project/'}
             ]
           },{
-            text: 'Flutter',
+            text: '03.Flutter',
             items: [
               {text: 'Flutter基础', link: '/flutter/base/'},
               {text: 'Flutter组件', link: '/flutter/wedget/'},
