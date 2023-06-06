@@ -193,17 +193,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-gitee',
           title: 'GitEE',
-          link: 'https://gitee.com/xiaoliuxuesheng',
+          link: 'https://gitee.com/panda_code_note/note_blogs_vuepress_web',
         },
-        {
-          iconClass: 'icon-github',
-          title: 'GitHub',
-          link: 'https://github.com/xiaoliuxuesheng',
-        },
+        // {
+        //   iconClass: 'icon-github',
+        //   title: 'GitHub',
+        //   link: 'https://github.com/xiaoliuxuesheng',
+        // },
         {
           iconClass: 'icon-erji',
           title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=2916766519',
+          link: 'https://music.163.com/#/playlist?id=26467411',
         },
       ],
     },
