@@ -64,6 +64,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '前端进阶', 
         link: '/webHight/',
         items: [
+          {text: '04.Sass', link: '/pages/0bc240/'},
           {text: '05.TypeScript', link: '/pages/c96fd9/'},
           {text: '06.CSS案例', link: '/pages/c30c6b/'}
         ]
