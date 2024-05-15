@@ -64,6 +64,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '前端进阶', 
         link: '/webHight/',
         items: [
+          {text: '01.jQuery', link: '/pages/175e03/'},
+          {text: '02.Node', link: '/pages/23f2a5/'},
+          {text: '03.Less', link: '/pages/a13b0d/'},
           {text: '04.Sass', link: '/pages/0bc240/'},
           {text: '05.TypeScript', link: '/pages/c96fd9/'},
           {text: '06.CSS案例', link: '/pages/c30c6b/'}
@@ -79,6 +82,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               {text: 'Vue基础', link: '/vue/base/'},
               {text: 'Vue进阶', link: '/vue/home/'},
               {text: 'Vue项目搭建', link: '/vue/project/'}
+            ]
+          },
+          {
+            text: '02.React',
+            items: [
+              {text: 'React基础', link: '/react/base/'},
             ]
           },{
             text: '03.Flutter',
