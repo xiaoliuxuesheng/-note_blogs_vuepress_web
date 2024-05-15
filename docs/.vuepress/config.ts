@@ -86,7 +86,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               {text: 'Flutter基础', link: '/flutter/base/'},
               {text: 'Flutter组件', link: '/flutter/wedget/'},
               {text: 'Flutter第三方组件', link: '/flutter/third/'},
-              {text: 'Flutter高级', link: '/flutter/hight/'}
+              {text: 'Flutter高级', link: '/flutter/height/'}
             ]
           },{
             text: '04.微信小程序',
