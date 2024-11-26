@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[125],{455:function(t,s,n){"use strict";n.r(s);var i=n(4),l=Object(i.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("ol",[t("li",[this._v("动画")]),this._v(" "),t("li",[this._v("国际化")])])])}),[],!1,null,null,null);s.default=l.exports}}]);
